@@ -1,5 +1,14 @@
+
+
+
 body {
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -27,4 +36,57 @@ button {
 
 button:hover {
     background-color: rgba(255, 255, 255, 0.9);
+}
+
+#container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid black;
+}
+
+#container > div {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 15%;
+    padding: 15px;
+}
+#container {
+    --content-size: larger;
+    --content-heading: x-large;
+}
+
+
+                        /*Home page styling*/
+
+
+
+
+p {
+    font-size: var(--content-size);
+}
+
+h3 {
+    font-size: var(--content-heading);
+}
+
+ul {
+    list-style-type: none;
+}
+
+#timings-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#timings h3 {
+    margin-bottom: 0;
+}
+
+ul li {
+    font-size: var(--content-size);
+    margin: 4px;
 }
