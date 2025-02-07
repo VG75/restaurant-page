@@ -2,15 +2,20 @@ import "./style.css"; // Add this in src/index.js
 import {renderHome} from "./home.js";
 import {renderMenu} from "./menu.js";
 import {renderContact} from "./contact.js"
+import {renderInitial} from "./initialPageLoad.js"
 
 const home = document.querySelector("#home");
 const menu = document.querySelector("#menu");
 const contact = document.querySelector("#contact");
-const container = document.querySelector("#container")
+const container = document.querySelector("#container");
 
 const homeElements = renderHome();
 const menuElements = renderMenu();
 const contactElements = renderContact();
+
+renderInitial();
+
+
 
 home.addEventListener("click", () => {
     container.innerHTML = '';
