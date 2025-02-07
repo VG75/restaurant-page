@@ -30,7 +30,7 @@ const renderHome = function() {
             <h3>location</h3>
             <p>321 Forest Drive, Forestvillaa, Sirsi</p>
         </div>`;
-        container.innerHTML = homeDiv;
+        return {homeDiv}
 }
 
 export {renderHome};
