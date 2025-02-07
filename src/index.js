@@ -1,4 +1,4 @@
-// import "./style.css"; // Add this in src/index.js
+import "./style.css"; // Add this in src/index.js
 import {renderHome} from "./home.js";
 import {renderMenu} from "./menu.js";
 import {renderContact} from "./contact.js"

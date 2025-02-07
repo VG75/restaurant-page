@@ -50,12 +50,13 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
     padding: 15px;
+    --content-size: larger;
+    --content-heading: x-large;
 }
 
 
-#container {
-    --content-size: larger;
-    --content-heading: x-large;
+#container > div {
+   
 }
 
 
@@ -106,6 +107,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
     gap: 20px;
+    width: 100%;
 }
 
 .card {
