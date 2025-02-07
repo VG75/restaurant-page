@@ -62,7 +62,7 @@ button:hover {
                         /*Home page styling*/
 
 
-#timings,#testimonieal,#location {
+#timings,#testimonieal,#location,.person-info {
     width: 50%;
     border: 1px solid black;
     border-radius: 15%;
@@ -132,4 +132,8 @@ footer {
 
 .card img {
     border-radius: 50%;
+}
+
+.person-info p {
+    margin: 1px;
 }
